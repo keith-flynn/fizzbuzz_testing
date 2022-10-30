@@ -3,7 +3,7 @@
 def fizz_buzz(input):
     if input == 0:
         return input
-    elif input % 15 == 0 and input != 0:
+    elif input % 15 == 0:
         return "FizzBuzz"
     elif input % 3 == 0:
         return "Fizz"
